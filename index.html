@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TechFlow Knowledge Base — Week 4: Software & Application Support</title>
+  <style>
+    @page { size: A4; margin: 20mm }
+    body {
+      font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+      line-height: 1.5;
+      color: #111;
+      background: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    .sheet {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 10mm auto;
+      padding: 18mm;
+      box-sizing: border-box;
+    }
+    header { text-align: center; margin-bottom: 20px; }
+    header h1 { font-size: 20pt; margin-bottom: 4px; }
+    header h2 { font-size: 14pt; color: #666; margin-top: 0; }
+    h2 { font-size: 14pt; margin-top: 20px; }
+    h3 { font-size: 13pt; margin-top: 14px; }
+    h4 { font-size: 12pt; margin-top: 10px; }
+    ul, ol { margin-left: 20px; }
+    .screenshot {
+      height: 150px;
+      border: 2px dashed #bbb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      font-size: 11pt;
+      margin: 8px 0 16px 0;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 10pt;
+      text-align: center;
+      color: #555;
+    }
+    .page-break { page-break-after: always; }
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <header>
+      <h1>TechFlow Knowledge Base Development</h1>
+      <h2>Week 4: Software & Application Support</h2>
+      <p><strong>Date:</strong> November 2025</p>
+    </header>
+
+    <section>
+      <h2>1. FAQ List (20 Common Issues)</h2>
+      <h3>Accounts & Access</h3>
+      <ol>
+        <li>How do I reset my password?</li>
+        <li>I didn’t receive my password reset email — what do I do?</li>
+        <li>How do I change my account email address?</li>
+        <li>Why can’t I log into my account?</li>
+        <li>How do I enable Two-Factor Authentication (2FA)?</li>
+      </ol>
+
+      <h3>CRM Features</h3>
+      <ol start="6">
+        <li>How do I add a new contact to the CRM?</li>
+        <li>How do I import leads from Excel?</li>
+        <li>Why are my leads not syncing with the sales dashboard?</li>
+        <li>How do I create automated email workflows?</li>
+        <li>How do I share a CRM report with my team?</li>
+      </ol>
+
+      <h3>Billing & Subscription</h3>
+      <ol start="11">
+        <li>How do I update my billing information?</li>
+        <li>How do I view past invoices?</li>
+        <li>What happens when my subscription expires?</li>
+        <li>Can I change my plan mid-cycle?</li>
+        <li>How do I cancel my subscription?</li>
+      </ol>
+
+      <h3>Technical & Browser Issues</h3>
+      <ol start="16">
+        <li>The CRM won’t load — what browsers are supported?</li>
+        <li>I get a “403 Forbidden” error when logging in.</li>
+        <li>Why is my dashboard blank after login?</li>
+        <li>How do I clear my cache and cookies for better performance?</li>
+        <li>The system keeps logging me out — how can I fix this?</li>
+      </ol>
+    </section>
+
+    <section class="page-break"></section>
+
+    <section>
+      <h2>2. Sample Knowledge Base Articles (5 Guides)</h2>
+
+      <h3>Article 1: How to Reset Your Corporate Network Password (Self-Service)
+</h3>
+      <ol>
+        <li>Go to the TechFlow login page.</li>
+<li>Access the Password Reset PortalNavigate to the Self-Service Password Management Portal on the login page. 
+</li>
+ <li>Enter your old Password if applicable(When you just want to change your current one)</li>
+
+        <li>Click <strong>“Forgot Password”</strong> and a  verification email will be sent .</li>
+        <li>Enter your registered email address.</li>
+        <li>Check your inbox for a password reset link.</li>
+        <li>Click the "Reset you passord" button to set a new password.</li>
+      </ol>
+      <div class="screenshot">[Insert Password Reset Screenshot Here]</div>
+
+      <h3>Article 2: Fixing Browser Compatibility Issues</h3>
+      <ol>
+        <li>Use a supported browser (Chrome, Edge, or Firefox).</li>
+        <li>Ensure your browser is up to date.</li>
+        <li>Clear cache and cookies using browser settings.</li>
+        <li>Restart browser and try logging in again.</li>
+      </ol>
+     
+      <h3>Article 3: Email Notifications: Not Receiving Internal System Emails
+</h3>
+      <ol>
+        <li>Log into your TechFlow CRM dashboard.</li>
+        <li>Check HubSpot User Notification Settings:
+Click your Profile Picture or Avatar in the top right corner and select Notifications.(Profile & Preferences)
+</li>
+        <li>Check Your Email Inbox Filters:
+</strong></li>
+        <li>Check for Workflow-Specific Failure (If Applicable):
+</li>
+        <li>Allowlist HubSpot Sender (IT/Admin Step):
+</strong>Action: Ask your internal IT team or email administrator to allowlist the HubSpot notification domains and IP addresses to prevent your company's email server from blocking them (common addresses include noreply@notifications.hubspot.com and notifications@hubspot.com).
+</li>
+      </ol>
+      <div class="screenshot">[Insert Add Contact Screenshot Here]</div>
+
+      <h3>Article 4: Updating Billing Information</h3>
+      <ol>
+<li>Verify Admin/Permission Status: 
+
+</strong>Confirm you have Super Admin or Manage payments and subscriptions permissions in your HubSpot account, as only these users can update payment details.</li>
+
+        <li>Go to Click your account name in the top right, then select Account & Billing.</li>
+        <li> Go </strong>to the Payment Methods tab.</li>
+        <li>Review and Update the Card: Check the current payment method for any typos in the card number, expiration date, or billing address.
+ If you are certain the card details are correct, delete and re-add the card to force a fresh authorization with the payment processor.</li>
+        <li>Contact Your Bank/ Contact HubSpot Billing(External Step):
+</strong>Call your bank or credit card company to confirm if they are blocking a charge from "HubSpot" or "Adyen" (HubSpot's payment processor) and authorize the transaction.
+If the card is confirmed as active and authorized by your bank, email the HubSpot Billing Team at billing@hubspot.com for further assistance with the payment attempt.
+
+</li>
+      </ol>
+      <div class="screenshot">[Insert Billing Info Screenshot Here]</div>
+
+      <h3>Article 5: Setting Up Two-Factor Authentication (2FA)</h3>
+      <ol>
+        <li>Navigate to <strong>Account Settings → Security.</strong></li>
+        <li>Select <strong>Enable 2FA.</strong></li>
+        <li>Choose <strong>SMS</strong> or <strong>Authenticator App.</strong></li>
+        <li>Scan the QR code using your authentication app.</li>
+        <li>Enter the code to verify and activate 2FA.</li>
+      </ol>
+          </section>
+
+    <section class="page-break"></section>
+
+    <section>
+      <h2>3. Proposed Knowledge Base Structure (Tree Format)</h2>
+      <div class="screenshot">[Insert Knowledge Base Structure Tree Screenshot Here]</div>
+    </section>
+
+    <section class="page-break"></section>
+
+    <section>
+      <h2>4. TechFlow Knowledge Base Style Guide</h2>
+
+      <h3>Applies to</h3>
+      <p>All TechFlow documentation (internal and customer-facing)</p>
+
+      <h3>Purpose</h3>
+      <p>To ensure clarity, consistency, and usability across all Knowledge Base articles and documents.</p>
+
+      <h3>Voice & Tone</h3>
+      <ul>
+        <li><strong>Voice:</strong> Friendly, professional, confident (not overly formal).</li>
+        <li><strong>Tone:</strong> Supportive and solution-oriented.</li>
+        <li><strong>Audience:</strong> Customers and internal staff.</li>
+        <li><strong>Avoid:</strong> Slang, undefined abbreviations, robotic phrasing.</li>
+      </ul>
+
+      <h3>Structure of Every KB Article</h3>
+      <ol>
+        <li>Overview</li>
+        <li>Step-by-Step Instructions</li>
+        <li>Troubleshooting or FAQs</li>
+        <li>Visuals</li>
+        <li>Tips</li>
+      </ol>
+
+      <h3>Formatting Standards</h3>
+      <ul>
+        <li>Use H2 for main sections, H3 for subsections.</li>
+        <li><strong>Bold</strong> for UI elements, <em>italics</em> for emphasis.</li>
+        <li>Numbered lists for steps, bullets for general points.</li>
+        <li>Include tables for data and error codes.</li>
+        <li>Active voice and present tense only.</li>
+      </ul>
+
+      <h3>Visual Guidelines</h3>
+      <ul>
+        <li>Use clear screenshots with captions and alt text.</li>
+        <li>Maintain brand colors: Blue, Gray, White.</li>
+        <li>Consistent icon styles and clean layouts.</li>
+      </ul>
+
+      <h3>Language & Grammar</h3>
+      <ul>
+        <li>Keep sentences short (under 20 words).</li>
+        <li>Start steps with action verbs.</li>
+        <li>Spell out acronyms once.</li>
+        <li>Use consistent product naming (TechFlow CRM).</li>
+      </ul>
+
+      <h3>Tagging & Metadata</h3>
+      <p>Add tags, last updated date, owner, audience, and version info (e.g., <code>#login</code> <code>#password</code> <code>#account</code>).</p>
+
+      <h3>Accessibility & Readability</h3>
+      <ul>
+        <li>Aim for 8th-grade reading level.</li>
+        <li>Use high contrast and descriptive alt text.</li>
+        <li>Avoid merged table cells.</li>
+        <li>Use descriptive link text (not “click here”).</li>
+      </ul>
+
+      <h3>Governance & Maintenance</h3>
+      <ul>
+        <li>Review articles quarterly and approve before publishing.</li>
+        <li>Audit outdated content twice yearly.</li>
+        <li>Track feedback and version history.</li>
+      </ul>
+
+      <h3>Templates & Naming Conventions</h3>
+      <ul>
+        <li><strong>Title:</strong> Start with action words (e.g., “How to…”).</li>
+        <li><strong>Folder:</strong> /KB/Category/Article_Title</li>
+        <li><strong>Header:</strong> Title, version, date, owner.</li>
+      </ul>
+
+      <h3>Writing Tips for Agents</h3>
+      <ul>
+        <li>Think like the reader.</li>
+        <li>Start with the outcome.</li>
+        <li>Avoid assumptions.</li>
+        <li>Keep it scannable.</li>
+        <li>Test your own steps.</li>
+        <li>End with next steps.</li>
+      </ul>
+
+      <h3>Example Article</h3>
+      <p><strong>Title:</strong> How to Clear Browser Cache in TechFlow</p>
+      <p><strong>Applies To:</strong> All TechFlow users</p>
+      <p><strong>Owner:</strong> Support Team</p>
+
+      <p><strong>Overview:</strong> Clearing your browser cache can resolve display or performance issues in TechFlow.</p>
+      <ol>
+        <li>Open Chrome Settings.</li>
+        <li>Select “Privacy and Security”.</li>
+        <li>Click “Clear Browsing Data”.</li>
+        <li>Choose “Cached Images and Files”.</li>
+        <li>Click “Clear Data”.</li>
+      </ol>
+
+      <p><strong>Troubleshooting:</strong> If pages still fail to load, restart your browser or check extensions.</p>
+      <p><strong>Tip:</strong> Do this monthly to improve performance.</p>
+    </section>
+
+    <footer>
+      Prepared by: IT System Support Specialist — TechFlow Solutions<br>
+      Use browser print to export as PDF or insert screenshots where indicated.
+    </footer>
+  </div>
+</body>
+</html>
